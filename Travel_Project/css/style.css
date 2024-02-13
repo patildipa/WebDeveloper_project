@@ -64,7 +64,7 @@ height: 100%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    transform: translate(0, -55px);
+    transform: translate(0, -65px);
 }
 .home-content{
     margin: 5rem;
@@ -80,8 +80,10 @@ height: 100%;
     margin-right:15rem;
     align-items: center;
     margin-top:2rem;
+    text-transform: uppercase;
 }
 .home-content h1{
+    text-transform: uppercase;
     text-align: center;
     font-weight: bold;
     font-size:2rem;
@@ -90,6 +92,7 @@ height: 100%;
     margin-right:15rem;
 }
 .home-content p{
+    text-transform: uppercase;
     text-align: center;
     font-weight: 300;
     margin-right:15rem;
@@ -144,5 +147,37 @@ height: 100%;
 .home-content .search button:hover{
     background-color: burlywood;
 }
+.section-travel .container{
+    display:flex;
+    justify-content: space-between;
+    margin:10rem 10rem;
+    width:100%;
+    padding:5rem 0;
+    align-items: center;
+    gap: 4rem;
+    /* box-shadow: 2px 2px 2px grey; */
+}
+.section-travel .container .box{
+     /* margin:3rem; */
+     transform:translate(0,100px);
+     text-align: center;
+}
+.section-travel .container .box img{
+    height:10rem;
+    padding:2rem;
+
+    margin-left:3rem;
+}
+.section-travel .container .box h1{
+    text-align: center;
+}
+.section-travel .container .box p{
+    text-align: center;
+    margin-right: 4rem;
+    color:grey;
+}
+
+/* Media section start here */
+
 
 
