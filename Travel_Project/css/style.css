@@ -13,20 +13,21 @@ text-decoration: none;
 
 
 }
-html,body{
+/* html,body{
     width: 100%;
 height: 100%;
 
-}
-/* .background-img{
-    background: linear-gradient(rgba(218, 193, 193, 0.1), rgba(230, 194, 194, 0.1));
-    background-image:url("../public/images/home.jpg");
-    height: 100vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 } */
+.background-img{
+    /* background: linear-gradient(rgba(218, 193, 193, 0.1), rgba(230, 194, 194, 0.1));
+    background-image:url("../public/images/home.jpg");
+    /* height: 100vh;
+    width: 100%; */
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    background-image:url("../public/images/travel19.jpg");
+}
 .navbar{
     padding:5px;
     background-color: rgba(122, 178, 226, 0.627);
@@ -188,7 +189,7 @@ height: 100%;
 @media screen and (orientation:landscape){
     .container-fluid{
         /* background: linear-gradient(rgba(218, 193, 193, 0.1), rgba(230, 194, 194, 0.1)); */
-        background-image:url("../public/images/home-background.jpg");
+        background-image:url("../public/images/travel19.jpg");
         height: 100%;
         width:100%;
         background-repeat: no-repeat;
