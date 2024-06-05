@@ -187,19 +187,20 @@ height: 100%;
 
 @media screen and (orientation:landscape){
     .container-fluid{
-        background: linear-gradient(rgba(218, 193, 193, 0.1), rgba(230, 194, 194, 0.1));
+        /* background: linear-gradient(rgba(218, 193, 193, 0.1), rgba(230, 194, 194, 0.1)); */
         background-image:url("../public/images/home-background.jpg");
         height: 100%;
         width:100%;
         background-repeat: no-repeat;
         background-size:cover;
+        background-position:sticky;
         /* margin-left:50px;
         margin-right:20px; */
-        padding: .5rem;
-        border-radius: .5rem;
-        background-attachment:fixed;
-        bottom: 0px;
-        right:0px;
+        /* padding: .5rem; */
+        /* border-radius: .5rem; */
+        /* background-attachment:fixed; */
+        /* bottom: 0px;
+        right:0px; */
     
     
         
